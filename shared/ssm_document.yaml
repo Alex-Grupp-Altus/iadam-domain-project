@@ -1,0 +1,7 @@
+schemaVersion: "2.2"
+description: "Example SSM Document"
+mainSteps:
+  - action: "aws:runCommand"
+    name: "example"
+    inputs:
+      command: "echo Hello, World!"
